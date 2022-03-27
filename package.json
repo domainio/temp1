@@ -4,7 +4,8 @@
   "description": "",
   "main": "cicd",
   "scripts": {
-    "test": "echo hi"
+    "test": "echo hi",
+    "build": "echo build"
   },
   "repository": {
     "type": "git",
