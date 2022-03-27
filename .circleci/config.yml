@@ -31,8 +31,8 @@ jobs:
     steps:
       - checkout
       - run: echo "build project"
-      - npm install
-      - npm run build          
+      - run: npm install
+      - run: npm run build          
           
 
 # Invoke jobs via workflows
