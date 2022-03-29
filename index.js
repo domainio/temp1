@@ -7,7 +7,7 @@ const port = process.env.PORT || 8080;
 console.log("osher hamelech!");
 
 app.get("/", async (req, res) => {
-  res.json({ status: "all is fine" });
+  res.json({ status: "food is ready" });
 });
 
 console.log('dean')
