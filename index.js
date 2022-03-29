@@ -9,8 +9,12 @@ app.get("/", async (req, res) => {
   res.json({ status: "all is fine" });
 });
 
+
+
+const now = new Date().toString();
+
 app.get("/time", async (req, res) => {
-  res.json({ time: Date.toString() });
+  res.json({ time: now });
 });
 
 app.listen(port, () => {
