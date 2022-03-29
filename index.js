@@ -10,16 +10,13 @@ app.get("/", async (req, res) => {
   res.json({ status: "food is ready" });
 });
 
-console.log('dean')
-console.log('halelik')
-console.log('halelik')
-console.log('halelik')
-console.log('dudi')
-console.log('erez');
 
-app.get('/time', async (req, res) => {
-  res.json({ time: Date.toString() });
+
+app.get("/time", async (req, res) => {
+  const now = new Date().toString();
+  res.json({ time: now });
 });
+
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
