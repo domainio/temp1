@@ -15,6 +15,7 @@ console.log('halelik')
 console.log('halelik')
 console.log('halelik')
 console.log('dudi')
+console.log('erez');
 
 app.get('/time', async (req, res) => {
   res.json({ time: Date.toString() });
