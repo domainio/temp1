@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get("/", async (req, res) => {
-  res.json({ status: "all is fine" });
+  res.json({ status: "all is fine2" });
 });
 
 app.get("/time", async (req, res) => {
