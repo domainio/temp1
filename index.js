@@ -13,8 +13,6 @@ app.get("/", async (req, res) => {
 console.log('dean')
 console.log('halelik')
 console.log('halelik')
-console.log('halelik')
-console.log('dudi')
 
 app.get('/time', async (req, res) => {
   res.json({ time: Date.toString() });
