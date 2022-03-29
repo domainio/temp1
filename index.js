@@ -7,6 +7,8 @@ app.get("/", async (req, res) => {
   res.json({ status: "all is fine" });
 });
 
+console.log('halelik')
+
 app.get("/time", async (req, res) => {
   res.json({ time: Date.toString() });
 });
